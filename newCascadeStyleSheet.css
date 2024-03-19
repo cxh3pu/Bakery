@@ -1,0 +1,44 @@
+/* Style the order form */
+#order-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#order-form label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#order-form input[type="text"], #order-form input[type="email"], #order-form input[type="tel"], #order-form input[type="datetime-local"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#order-form input[type="submit"] {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+#order-form input[type="submit"]:hover {
+  background-color: #ff8533;
+}/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 Nov 2023, 06:59:17
+    Author     : user1
+*/
+
